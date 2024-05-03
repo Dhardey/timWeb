@@ -404,7 +404,7 @@ a {
 }
 
 /* mobile */
-@media screen and (max-device-width: 30em) {
+@media screen and (min-device-width: 30em) {
     .header {
         display: flex;
         flex-direction: column;
