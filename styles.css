@@ -487,7 +487,8 @@ a {
     .why-header {
         background-image: url("img/serrated-metal-rake-garden-cleaning.jpg"), linear-gradient(rgba(0,0,0,0.85),rgba(0,0,0,0.85));
         background-blend-mode: overlay;
-        background-size: 100%;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
     }
 
     .w-card {
@@ -577,7 +578,8 @@ a {
     .why-header {
         background-image: url("img/serrated-metal-rake-garden-cleaning.jpg"), linear-gradient(rgba(0,0,0,0.85),rgba(0,0,0,0.85));
         background-blend-mode: overlay;
-        background-size: 100%;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
         padding-bottom: 10px;
     }
 
@@ -666,7 +668,8 @@ a {
     .why-header {
         background-image: url("img/serrated-metal-rake-garden-cleaning.jpg"), linear-gradient(rgba(0,0,0,0.85),rgba(0,0,0,0.85));
         background-blend-mode: overlay;
-        background-size: 100%;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
         padding-bottom: 10px;
     }
 
@@ -752,7 +755,8 @@ a {
     .why-header {
         background-image: url("img/serrated-metal-rake-garden-cleaning.jpg"), linear-gradient(rgba(0,0,0,0.85),rgba(0,0,0,0.85));
         background-blend-mode: overlay;
-        background-size: 100%;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
         padding-bottom: 10px;
     }
 
