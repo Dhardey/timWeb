@@ -47,6 +47,7 @@ html, body {
     font-family: "Nunito Sans", sans-serif; 
     background-color: var(--main-white);
     overflow-x: hidden;
+    touch-action: pan-x pan-y;
 }
 
 /* Header */
