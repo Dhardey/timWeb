@@ -339,27 +339,30 @@ h2 {
     max-width: 30%;
 }
 
-.contact-con {
-    text-align: center;
-    background-color: var(--main-green);
-    border-radius: 10px;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: -8%;
-    margin-bottom: -5%;
-}
+
 h4 {
+    
     font-size: 2.5rem;
     text-decoration: underline;
     text-underline-offset: 10px;
+}
+.contact-con {
+    margin-top: 5%;
+    margin-bottom: 2%;
 }
 .contact-flex {
     display: flex;
     align-items: center;
     justify-content: space-around;
     font-size: 2rem;
-    margin-bottom: 10%;
     color: var(--main-white);
+    text-align: center;
+    background-color: var(--main-green);
+    border-radius: 10px;
+    margin-top: -18%;
+    margin-left: 10%;
+    margin-right: 10%;
+    
 }
 
 .r-text {
@@ -484,6 +487,7 @@ a {
     .why {
         margin-top: 10px;
         background: none;
+        margin-bottom: 20%;
     }
 
     .why-header {
@@ -520,6 +524,8 @@ a {
     h4 {
         text-decoration: none;
     }
+
+    
 
 
 
@@ -626,6 +632,7 @@ a {
         font-size: 31px;
         text-align: center;
     }
+
     .main-txt {
         text-decoration: none;
         &:after {
@@ -708,6 +715,10 @@ a {
         max-width: 45%;
     }
 
+    .contact-con {
+        padding-top: 10%;
+    }
+
     .contact-flex {
         flex-direction: column;
         padding: 5px;
@@ -716,6 +727,7 @@ a {
     h4 {
         text-decoration: none;
     }
+
 
 }
 
@@ -792,9 +804,12 @@ a {
         max-width: 45%;
     }
 
+    .contact-con {
+        margin-top: 12rem;
+    }
+
     .contact-flex {
         flex-direction: column;
-        padding: 5px;
     }
 
     h4 {
@@ -844,6 +859,29 @@ a {
             font-size: 1.3rem;
         }
     }
+
+    .contact-con {
+        margin-top: 15rem;
+    }
+}
+
+@media screen and (hover:none) and (min-device-width:1024px) and (max-device-width:1440px) {
+    .why {
+        margin-top: 6%;
+    }
+    .contact-con {
+        margin-top: 20%;
+    }
+}
+
+@media screen and (min-device-width: 1441px) {
+    .why {
+        margin-top: 2%;
+    }
+    .contact-con {
+        margin-top: 20%;
+    }
+
 }
 
 
